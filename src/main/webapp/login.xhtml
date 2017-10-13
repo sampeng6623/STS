@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="./template/FunctionTemplate.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:p="http://primefaces.org/ui">
+
+
+    <ui:define name="content">
+
+
+        <h:form id="form">
+
+
+            <!-- [/MAIN-HEADING]
+          ============================================================================================================================--> 
+            <section class="main-heading" id="login">
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row">
+                           
+            <p:inputText value="#{loginManagedBean.text}" />
+            <p:commandButton action="#{loginManagedBean.conceptSubmit()}" />
+                        </div>
+                    </div>
+                </div>  
+
+            </section>
+
+            <!-- [/MAIN-HEADING]
+============================================================================================================================-->
+
+
+
+
+        </h:form>
+
+    </ui:define>
+
+</ui:composition>

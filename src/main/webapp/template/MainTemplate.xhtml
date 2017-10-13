@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <h:outputStylesheet name="./css/default.css"/>
+        <h:outputStylesheet name="./css/cssLayout.css"/>
+        <h:outputScript library="js" name="common.js" />
+        
+        
+        <h:outputStylesheet name="./library/font-awesome-4.3.0/css/font-awesome.min.css"/>
+        <!-- [ PLUGIN STYLESHEET ]
+        =========================================================================================================================-->
+        <h:outputStylesheet name="./css/animate.css"/>
+        <h:outputStylesheet name="./css/carousel.css"/>
+        <h:outputStylesheet name="./css/animate.css"/>
+        <h:outputStylesheet name="./css/owl.theme.css"/>
+        <h:outputStylesheet name="./css/magnific-popup.css"/>
+        
+        <!-- [ Boot STYLESHEET ]
+        =========================================================================================================================-->
+        <h:outputStylesheet name="./css/library/bootstrap/css/bootstrap-theme.min.css"/>
+        <h:outputStylesheet name="./library/bootstrap/css/bootstrap.css"/>
+    
+        <!-- [ DEFAULT STYLESHEET ] 
+        =========================================================================================================================-->
+        <h:outputStylesheet name="./css/style.css"/>
+        <h:outputStylesheet name="./css/responsive.css"/>
+        <h:outputStylesheet name="./css/color/rose.css"/>
+        <title>TheKids Solution</title>
+    </h:head>
+
+    <h:body>
+        
+         <div id="top" class="top">
+            <ui:insert name="top">
+                <nav  class=" nim-menu navbar navbar-default navbar-fixed-top">
+                 <div class="container">
+                 <!-- Brand and toggle get grouped for better mobile display -->
+                 <div class="navbar-header">
+                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                   </button>
+                     <a class="navbar-brand" href="index.xhtml">N<span class="themecolor">i</span>M</a>
+                 </div>
+
+                 <!-- Collect the nav links, forms, and other content for toggling -->
+                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                   <ul class="nav navbar-nav navbar-right">
+                     <li><a href="#home" class="page-scroll">Home</a></li>
+                     <li><a href="#one" class="page-scroll">About</a></li>
+                     <li><a href="#two" class="page-scroll">Our Works</a></li>
+                     <li><a href="#three" class="page-scroll">Team</a></li>
+                      <li><a href="#seven" class="page-scroll">Services</a></li>
+                     <li><a href="#eight" class="page-scroll">Contact</a></li>
+                     <li><a href="login.xhtml" class="page-scroll">Customer Login</a></li>
+                     <li><a href="login.xhtml" class="page-scroll">Partner Login</a></li>
+                   </ul>
+                 </div><!-- /.navbar-collapse -->
+               </div><!-- /.container-fluid -->
+             </nav>  
+       </ui:insert>
+        </div>
+
+        <div id="content" class="wrapper">
+<!--                <div class="preloader">
+                    <div class="loader theme_background_color">
+                        <span></span>
+
+                    </div>
+                </div>-->
+            <ui:insert name="content">
+                
+                
+                
+                
+            </ui:insert>
+        </div>
+
+    </h:body>
+
+</html>
